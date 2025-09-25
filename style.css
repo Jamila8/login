@@ -1,0 +1,120 @@
+* {
+Margin: 0;
+Padding: 0;
+Box-sizing: border-box;
+Font-family: Arial, sans-serif;
+}
+Body {
+Display: flex;
+Justify-content: center;
+Align-items: center;
+Min-height: 100vh;
+Background: url(./pexels-life-of-pix-7919.jpg) no-repeat;
+Background-position: center;
+Background-size: cover;
+}
+.wrapped {
+Width: 420px;
+Background: transparent;
+Border: 2px solid rgba(255, 255, 255, .2);
+Color: #fff;
+Border-radius: 10px;
+Padding: 30px 40px;
+Backdrop-filter: blur(15px);
+Box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.wrapped h1 {
+Font-size: 36px;
+Text-align: center;
+}
+.wrapped .input-box {
+Position: relative;
+Width: 100%;
+Height: 50px;
+Margin: 30px 0;
+}
+.input-box input {
+Width: 100%;
+Height: 100%;
+Background: transparent;
+Border: none;
+Outline: none;
+Border-radius: 40px;
+Border: 2px solid rgba(255, 255, 255, .2);
+Font-size: 16px;
+Color: white;
+Padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+Color: #fff;
+}
+ .input-box i {
+Position: absolute;
+Right: 20px;
+Top: 50%;
+Transform: translateY(-50%);
+Font-size: 20px;
+}
+.wrapped .remember-forgot {
+Display: flex;
+Justify-content: space-between;
+Font-size: 14.5px;
+Margin: -15px 0 15px;
+}
+.remember-forgot label input {
+Accent-color: #fff;
+Margin-right: 3px;
+}
+.remember-forgot a {
+Color: #fff;
+Text-decoration: none;
+}
+.remember-forgot a:hover {
+Text-decoration: underline;
+}
+.wrapped .btn {
+Width: 100%;
+Height: 45px;
+Margin: 10px;
+Background: #fff;
+Outline: none;
+Border: none;
+Box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+Color: #333;
+Font-weight: 600;
+Border-radius: 40px;
+}
+.wrapped .register-link {
+Font-size: 14.5px;
+Text-align: center;
+Margin: 20px 0 15px;
+}
+.register-link p a {
+Color: #fff;
+Text-decoration: none;
+Font-weight: 600;
+}
+.register-link p a:hover {
+Text-decoration: underline;
+}
+
+@media (max-midth: 600px) {
+.wrapped {
+Width: 90%;
+Padding: 20px;
+}
+.wrapped h1 {
+Font-size: 28px;
+}
+.input-box input {
+Font-size: 14px;
+Padding: 10px;
+}
+.btn {
+Font-size: 16px;
+Padding: 12px;
+}
+}
+
+
